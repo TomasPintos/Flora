@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.header {
+    text-align: center;
+    background-color: #FBBD00;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: #FFF59D;
+}
+
+.container {
+    margin: 380px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.image-container {
+    text-align: center;
+    margin-right: 20px; /* Espacio entre la imagen y la información */
+}
+
+.info-container {
+    display: flex;
+   
+    align-items: flex-start; /* Alineación a la izquierda */
+}
+
+.info-container p {
+    margin: 10px 0; /* Espacio entre los elementos de información */
+}
+
+.Logout {
+    text-align: center;
+    margin: 20px;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.estado-pendiente {
+    color: blue;
+    font-weight: bold;
+}
+
+.info {
+    margin: 20px;
+    text-align: center;
+}
+
+.inicio {
+    text-align: center;
+}
+
+.inicio a {
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #B80F22;
+}
+
+.inicio a:hover {
+    color: #FDBE00;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 480px) {
+    .container {
+        margin: 10px;
+    }
+    
+    .section-container {
+        padding: 10px;
+    }
+    
+    .image-container {
+        margin: 10px;
+    }
+    
+    .info-container p {
+        margin: 5px;
+    }
+    
+    .Logout {
+        margin: 10px;
+    }
+}
+/* Tus estilos CSS existentes se mantienen iguales */
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 480px) {
+    /* Tus estilos para dispositivos móviles existentes se mantienen iguales */
+}
